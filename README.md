@@ -1,0 +1,1 @@
+This script takes a long audiob file, splits it into chunks, transcribes each chunk into text using OpenAI's Whisper model, and saves the transcriptions in .srt subtitle format. It processes the chunks sequentially using ffmpeg for audio splitting, Whisper for transcription, and cleans up temporary files after each step.
